@@ -1,0 +1,11 @@
+.bar {
+    position: absolute;
+    background-color: #f7f719;
+    height: 100vh;
+    width: 60px;
+    top: 0;
+    right: calc(100% - 390px);
+    transform: skew(30deg);
+    transform-origin: top;
+    z-index: 1;
+}
