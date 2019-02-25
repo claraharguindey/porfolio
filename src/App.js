@@ -7,7 +7,7 @@ import Projects from './Projects';
 import Articles from './Articles';
 import About from './About';
 import Conferences from './Conferences';
-import './App.css';
+import './App.scss';
 
 class App extends Component {
   render() {
@@ -38,7 +38,7 @@ class App extends Component {
             </li>
 
             <li className="main__navigation--item">
-            <a href="https://desmusea.com">desmusea</a>
+            <a href="https://desmusea.com"  target="_blank" rel="noopener noreferrer">desmusea</a>
             </li>
           </ul>
         </nav>

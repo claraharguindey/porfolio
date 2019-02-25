@@ -1,17 +1,14 @@
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
 import './Home.scss';
 class Home extends Component {
 
   render() {
     return (
-    
-
-      <div className="main__content">
+      <div className="main__home--content">
       <span className="bar"></span>
-        <img alt="girl" src="https://media.giphy.com/media/9Dm6Dc0GzGFirfauqs/giphy.gif"></img>
-        <p>
-          front-end developer
+        <img className="home__content--img" alt="girl" src="https://media.giphy.com/media/9Dm6Dc0GzGFirfauqs/giphy.gif"></img>
+        <p className="home__content--text">
+          front-end developer <br/>
           mediación cultural cyborg
         </p>
       </div>

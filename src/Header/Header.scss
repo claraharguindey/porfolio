@@ -1,0 +1,22 @@
+.header__nav {
+    min-width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    padding-top:10px;
+}
+
+.header__nav--list {
+    display:flex;
+    justify-content: space-around;
+    width: 30%;
+    list-style: none;
+    color: black;
+    flex-direction: row;
+}
+
+.nav__list--item {
+    list-style: none;
+    color: black;
+    text-transform: capitalize;
+}

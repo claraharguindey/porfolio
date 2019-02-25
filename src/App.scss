@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 100%;
+    min-height: 100vh;
+    text-transform: lowercase;
+}
+
+a {
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+li {
+    list-style: none;
+}
+.main__navigation--wrapper {
+    max-width: 30%;
+    background-color: pink;
+}
