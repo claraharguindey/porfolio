@@ -30,7 +30,7 @@ class App extends Component {
             </li>
 
             <li className="main__navigation--item">
-            <Link to="/texts">textos</Link>
+            <Link to="/articles">textos</Link>
             </li>
 
             <li className="main__navigation--item">
@@ -53,24 +53,20 @@ class App extends Component {
           />
 
           <Route
-            exact
             path="/projects"
             component={Projects}
           />
 
           <Route
-            exact
             path="/conferences"
             component={Conferences}
           />
           <Route
-            exact
             path="/articles"
             component={Articles}
           />
 
           <Route
-            exact
             path="/about"
             component={About}
           />
