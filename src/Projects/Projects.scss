@@ -1,0 +1,15 @@
+.projects__wrapper {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 90px;
+}
+
+.projects__img {
+    margin: 20px;
+    width: 500px;
+    &:hover{
+        cursor: pointer;
+    }
+}
