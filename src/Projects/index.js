@@ -17,6 +17,17 @@ class Projects extends Component {
                     <img src="https://media.giphy.com/media/1mhkfgMAOTCRtK8bJ2/giphy.gif" alt="perdoname bot" />
                 </a>
                 
+                <a href="http://beta.adalab.es/e-s2-evaluacion-final-claraharguindey/" target="_blank" rel="noopener noreferrer">
+                    <img src="https://media.giphy.com/media/1d5WAoOETFqYM157iL/giphy.gif" alt="buscador de series" />
+                </a>
+
+                <a href="http://beta.adalab.es/e-s3-evaluacion-final-claraharguindey/#/" target="_blank" rel="noopener noreferrer">
+                    <img src="https://media.giphy.com/media/KWRFg1Eu649UPxPVGk/giphy.gif" alt="harry potter characters" />
+                </a>
+
+                <a href="https://github.com/claraharguindey/her-eyes" target="_blank" rel="noopener noreferrer">
+                    <img src="https://media.giphy.com/media/4PY2RWvqaZhI2eLlu5/giphy.gif" alt="her eyes" />
+                </a>
             </div>
         );
     }
