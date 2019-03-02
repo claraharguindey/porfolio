@@ -20,15 +20,23 @@ class App extends Component {
       "series":"series",
       "potter":"potter",
       "eyes":"eyes",
-      "sad":"sad"
+      "sad":"sad",
+      "text":"hey",
     }
     this.textChange = this.textChanger.bind(this);
+    this.textState  = this.textState.bind(this);
   }
 
   textChanger(event) {
-    const value = event.target.value;
-    
-    
+    const value = event.currentTarget.getAttribute('name');
+    console.log(value);
+  }
+
+  textState(value) {
+    this.setState({
+      "text": value
+    })
+
   }
   render() {
     return (
@@ -76,7 +84,7 @@ class App extends Component {
             path="/projects"
             render={() => {
               return (
-                <Projects textChanger={this.textChanger} />)
+                <Projects textChanger={this.textChanger} text={this.state.text} />)
             }}
           />
 
