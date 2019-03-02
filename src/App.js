@@ -10,6 +10,26 @@ import Conferences from './Conferences';
 import './App.scss';
 
 class App extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      "nfq": "nfq project",
+      "awesome": "awesome",
+      "maquetacion":"maquetacion",
+      "bot":"bot",
+      "series":"series",
+      "potter":"potter",
+      "eyes":"eyes",
+      "sad":"sad"
+    }
+    this.textChange = this.textChanger.bind(this);
+  }
+
+  textChanger(event) {
+    const value = event.target.value;
+    
+    
+  }
   render() {
     return (
       <div className="App">
@@ -54,7 +74,10 @@ class App extends Component {
 
           <Route
             path="/projects"
-            component={Projects}
+            render={() => {
+              return (
+                <Projects textChanger={this.textChanger} />)
+            }}
           />
 
           <Route
