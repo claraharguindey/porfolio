@@ -13,6 +13,11 @@ class Projects extends Component {
                     <img className="projects__img" src="https://media.giphy.com/media/3XEGiY4I01qTvGHb8h/giphy.gif" alt="awesome profile cards" />
                 </a>
 
+                <a href="http://beta.adalab.es/e-s1-evaluacion-final-claraharguindey/" target="_blank" rel="noopener noreferrer">
+                    <img className="projects__img" src="https://media.giphy.com/media/yycXkkgjTNIztPqv3R/giphy.gif" alt="maquetacion web" />
+                </a>
+
+
                 <a href="https://twitter.com/perdona91721153" target="_blank" rel="noopener noreferrer">
                     <img className="projects__img" src="https://media.giphy.com/media/1mhkfgMAOTCRtK8bJ2/giphy.gif" alt="perdoname bot" />
                 </a>
